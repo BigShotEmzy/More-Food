@@ -15,6 +15,7 @@ package net.morefood;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.morefood.init.MoreFoodModProcedures;
 import net.morefood.init.MoreFoodModItems;
 
 import net.fabricmc.api.ModInitializer;
@@ -28,6 +29,8 @@ public class MoreFoodMod implements ModInitializer {
 		LOGGER.info("Initializing MoreFoodMod");
 
 		MoreFoodModItems.load();
+
+		MoreFoodModProcedures.load();
 
 	}
 }

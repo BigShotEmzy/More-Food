@@ -127,6 +127,24 @@
           "src/main/resources/data/more_food/advancements/more_food.json"
         ]
       }
+    },
+    {
+      "name": "ModInteract",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_interact",
+      "metadata": {
+        "files": [
+          "src/main/java/net/morefood/procedures/ModInteractProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
