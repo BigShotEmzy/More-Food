@@ -5,7 +5,7 @@
     "achievementName": "More Food",
     "achievementDescription": "First Steps to being a master chef",
     "achievementIcon": {
-      "value": "Items.COOKED_BEEF"
+      "value": "CUSTOM:MoreFoodIcon"
     },
     "background": "Default",
     "disableDisplay": false,

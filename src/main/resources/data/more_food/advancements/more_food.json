@@ -2,7 +2,7 @@
   "display": {
     "background": "minecraft:textures/block/stone.png",
     "icon": {
-      "item": "minecraft:cooked_beef"
+      "item": "more_food:more_food_icon"
     },
     "title": {
       "translate": "advancements.more_food.title"

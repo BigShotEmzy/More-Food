@@ -145,12 +145,27 @@
           }
         ]
       }
+    },
+    {
+      "name": "MoreFoodIcon",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "more_food_icon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_food/models/item/more_food_icon.json",
+          "src/main/java/net/morefood/item/MoreFoodIconItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.more_food.more_food_icon": "More Food Icon",
       "item.more_food.cheese": "Cheese",
       "advancements.more_food.descr": "First Steps to being a master chef",
       "advancements.cheese_master.title": "Cheese Master",
