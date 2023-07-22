@@ -204,7 +204,7 @@
     "version": "1.0.0",
     "description": "Adds More Food Items",
     "author": "BigShotEmzy",
-    "websiteURL": "https://modrinth.com/mod/extrafood/s",
+    "websiteURL": "https://modrinth.com/mod/extrafood",
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
