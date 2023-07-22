@@ -208,6 +208,7 @@
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "extra_food",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

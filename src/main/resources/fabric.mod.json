@@ -12,6 +12,7 @@
     "sources": ""
   },
   "license": "MIT License",
+  "icon": "assets/more_food/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
