@@ -3,11 +3,12 @@
   "id": "more_food",
   "version": "1.0.0",
   "name": "More Food",
+  "description": "Adds More Food Items",
   "authors": [
     "BigShotEmzy"
   ],
   "contact": {
-    "homepage": "https://mcreator.net",
+    "homepage": "https://modrinth.com/mod/extrafood/s",
     "sources": ""
   },
   "license": "MIT License",
