@@ -1,9 +1,37 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Cheese",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese",
+      "metadata": {
+        "files": [
+          "src/main/java/net/morefood/item/CheeseItem.java",
+          "src/main/resources/assets/more_food/models/item/cheese.json"
+        ]
+      }
+    },
+    {
+      "name": "CheeseRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_food/recipes/cheese_recipe.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.more_food.cheese": "Cheese"
+    }
   },
   "foldersRoot": {
     "name": "~",
