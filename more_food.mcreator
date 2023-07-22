@@ -3,6 +3,7 @@
     {
       "name": "Cheese",
       "type": "item",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cheese",
@@ -11,11 +12,13 @@
           "src/main/java/net/morefood/item/CheeseItem.java",
           "src/main/resources/assets/more_food/models/item/cheese.json"
         ]
-      }
+      },
+      "path": "~/Cheese And Cheese Sandwiches"
     },
     {
       "name": "CheeseRecipe",
       "type": "recipe",
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cheese_recipe",
@@ -23,27 +26,108 @@
         "files": [
           "src/main/resources/data/more_food/recipes/cheese_recipe.json"
         ]
-      }
+      },
+      "path": "~/Cheese And Cheese Sandwiches"
+    },
+    {
+      "name": "CheeseMaster",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_master",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_food/advancements/cheese_master.json"
+        ]
+      },
+      "path": "~/Cheese And Cheese Sandwiches"
+    },
+    {
+      "name": "GrilledCheese",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grilled_cheese",
+      "metadata": {
+        "files": [
+          "src/main/java/net/morefood/item/GrilledCheeseItem.java",
+          "src/main/resources/assets/more_food/models/item/grilled_cheese.json"
+        ]
+      },
+      "path": "~/Cheese And Cheese Sandwiches"
+    },
+    {
+      "name": "CheeseSandwich",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_sandwich",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/more_food/models/item/cheese_sandwich.json",
+          "src/main/java/net/morefood/item/CheeseSandwichItem.java"
+        ]
+      },
+      "path": "~/Cheese And Cheese Sandwiches"
+    },
+    {
+      "name": "CheeseSandwichRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_sandwich_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_food/recipes/cheese_sandwich_recipe.json"
+        ]
+      },
+      "path": "~/Cheese And Cheese Sandwiches"
+    },
+    {
+      "name": "GrilledCheeseRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grilled_cheese_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_food/recipes/grilled_cheese_recipe.json"
+        ]
+      },
+      "path": "~/Cheese And Cheese Sandwiches"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.more_food.cheese": "Cheese"
+      "item.more_food.cheese": "Cheese",
+      "advancements.cheese_master.title": "Cheese Master",
+      "advancements.cheese_master.descr": "Obtain a slice of cheese",
+      "item.more_food.cheese_sandwich": "Cheese Sandwich",
+      "item.more_food.grilled_cheese": "Grilled Cheese"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Cheese And Cheese Sandwiches",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "more_food",
     "modName": "More Food",
     "version": "1.0.0",
-    "author": "Emilia, MCreator",
+    "author": "BigShotEmzy",
     "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -51,6 +135,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "fabric-1.19.2",
+    "credits": "made by the one and only BigShotEmzy",
     "modElementsPackage": "net.morefood",
     "lockBaseModFiles": false
   },

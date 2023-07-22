@@ -1,3 +1,7 @@
 {
-  "item.more_food.cheese": "Cheese"
+  "item.more_food.cheese": "Cheese",
+  "advancements.cheese_master.title": "Cheese Master",
+  "advancements.cheese_master.descr": "Obtain a slice of cheese",
+  "item.more_food.cheese_sandwich": "Cheese Sandwich",
+  "item.more_food.grilled_cheese": "Grilled Cheese"
 }

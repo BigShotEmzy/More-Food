@@ -4,13 +4,13 @@
   "version": "1.0.0",
   "name": "More Food",
   "authors": [
-    "Emilia, MCreator"
+    "BigShotEmzy"
   ],
   "contact": {
     "homepage": "https://mcreator.net",
     "sources": ""
   },
-  "license": "Academic Free License v3.0",
+  "license": "MIT License",
   "environment": "*",
   "entrypoints": {
     "main": [
