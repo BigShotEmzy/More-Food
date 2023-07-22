@@ -2,8 +2,8 @@
   "_fv": 43,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Cheese Master",
-    "achievementDescription": "Obtain a slice of cheese",
+    "achievementName": "Cheese Obtainer",
+    "achievementDescription": "Obtain a block of cheese",
     "achievementIcon": {
       "value": "CUSTOM:Cheese"
     },
