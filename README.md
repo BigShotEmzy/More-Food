@@ -11,8 +11,11 @@ One Milk Bucket -> Cheese
 
 One Bread On The Top Middle and The Bottom Middle and a Cheese on the middle Slot -> Cheese Sandwich
 
+
 ### Smelting Recipies:
+
 Cheese Sandwich -> Grilled Cheese
+
 
 I never got around to adding more stuff but I will don't worry
 
