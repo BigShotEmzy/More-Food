@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "more_food",
+  "version": "1.0.0",
+  "name": "More Food",
+  "authors": [
+    "Emilia, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.morefood.MoreFoodMod"
+    ],
+    "client": [
+      "net.morefood.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}
