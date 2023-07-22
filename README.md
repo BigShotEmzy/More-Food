@@ -1,4 +1,4 @@
-# More-Food
+# More Food
 This is a mod that adds lots of new food and drink options to really spice up (literally (in a future update) minecraft
 
 ## Brand New Food Items
