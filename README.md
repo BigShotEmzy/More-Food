@@ -8,6 +8,7 @@ There is now need food items in Minecraft
 
 ### Crafting Table Recipies:
 One Milk Bucket -> Cheese
+
 One Bread On The Top Middle and The Bottom Middle and a Cheese on the middle Slot -> Cheese Sandwich
 
 ### Smelting Recipies:
