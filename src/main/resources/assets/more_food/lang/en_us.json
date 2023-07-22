@@ -1,7 +1,11 @@
 {
   "item.more_food.cheese": "Cheese",
+  "advancements.more_food.descr": "First Steps to being a master chef",
   "advancements.cheese_master.title": "Cheese Master",
+  "advancements.cheesy_life.descr": "Eat a Grilled Cheese",
   "advancements.cheese_master.descr": "Obtain a slice of cheese",
   "item.more_food.cheese_sandwich": "Cheese Sandwich",
+  "advancements.cheesy_life.title": "Cheesy Life",
+  "advancements.more_food.title": "More Food",
   "item.more_food.grilled_cheese": "Grilled Cheese"
 }

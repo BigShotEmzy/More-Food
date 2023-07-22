@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "more_food:grilled_cheese"
+    },
+    "title": {
+      "translate": "advancements.cheesy_life.title"
+    },
+    "description": {
+      "translate": "advancements.cheesy_life.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cheesy_life": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "more_food:grilled_cheese"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "more_food:cheese_master"
+}

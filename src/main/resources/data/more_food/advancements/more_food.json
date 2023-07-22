@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "more_food": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

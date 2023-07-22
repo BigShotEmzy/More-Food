@@ -32,6 +32,7 @@
     {
       "name": "CheeseMaster",
       "type": "achievement",
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cheese_master",
@@ -99,6 +100,33 @@
         ]
       },
       "path": "~/Cheese And Cheese Sandwiches"
+    },
+    {
+      "name": "CheesyLife",
+      "type": "achievement",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheesy_life",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_food/advancements/cheesy_life.json"
+        ]
+      },
+      "path": "~/Cheese And Cheese Sandwiches"
+    },
+    {
+      "name": "MoreFood",
+      "type": "achievement",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "more_food",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/more_food/advancements/more_food.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -106,9 +134,13 @@
   "language_map": {
     "en_us": {
       "item.more_food.cheese": "Cheese",
+      "advancements.more_food.descr": "First Steps to being a master chef",
       "advancements.cheese_master.title": "Cheese Master",
+      "advancements.cheesy_life.descr": "Eat a Grilled Cheese",
       "advancements.cheese_master.descr": "Obtain a slice of cheese",
       "item.more_food.cheese_sandwich": "Cheese Sandwich",
+      "advancements.cheesy_life.title": "Cheesy Life",
+      "advancements.more_food.title": "More Food",
       "item.more_food.grilled_cheese": "Grilled Cheese"
     }
   },
